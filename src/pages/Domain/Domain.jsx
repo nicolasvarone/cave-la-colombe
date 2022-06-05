@@ -1,11 +1,16 @@
 import Header from '../../components/Header/Header'
-import TopImage from '../../components/TopImage/TopImage'
+// import TopImage from '../../components/TopImage/TopImage'
 import domain2 from '../../images/domain2.jpg'
 import {
   Container,
   ContainerSmall,
 } from '../../components/Container/Container.styled'
 import { Text, MiddleImage, WrapperButton } from './Domain.styled'
+
+/////// Temporary ///////
+import { TopImage } from './Domain.styled'
+/////// Temporary ///////
+
 import domain3 from '../../images/domain3.jpg'
 import Button from '../../components/Button/Button'
 
@@ -13,7 +18,13 @@ const Domain = () => {
   return (
     <>
       <Header />
-      <TopImage src={domain2} alt={'Claire-Lise'} />
+
+      {/* /////// Temporary /////// */}
+      <TopImage>
+        <img src={domain2} alt='Claire-Lise' />
+      </TopImage>
+      {/* /////// Temporary /////// */}
+
       <Container>
         <ContainerSmall>
           <Text>

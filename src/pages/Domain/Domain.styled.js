@@ -1,6 +1,20 @@
 import styled from 'styled-components'
 import { SecondTitleStyle, WrapperLinkStyle } from '../../globalStyle'
 
+/////// Temporary ///////
+export const TopImage = styled.div`
+  width: 100%;
+  height: calc(100vh - 7rem);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 65%;
+  }
+`
+/////// Temporary ///////
+
 export const Text = styled.div`
   padding: var(--padding-7) 0 0;
 
