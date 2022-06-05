@@ -83,9 +83,17 @@ export const Foreground = styled.div`
     left: 0;
     background: linear-gradient(
       0deg,
-      rgba(51, 51, 51, 0) 70%,
+      rgba(51, 51, 51, 0) 30%,
       rgba(51, 51, 51, 0.7)
     );
+
+    @media screen and (max-width: 768px) {
+      background: linear-gradient(
+        0deg,
+        rgba(51, 51, 51, 0) 30%,
+        rgba(51, 51, 51, 0.7)
+      );
+    }
   }
 
   img {
