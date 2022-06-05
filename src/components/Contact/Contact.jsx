@@ -38,7 +38,7 @@ const Contact = () => {
           </p>
         </Left>
         <Right>
-          <Form netlify>
+          <Form name='contact' method='POST' data-netlify='true'>
             <label>Nom</label>
             <input type='text' name='name' />
             <label>E-mail</label>
