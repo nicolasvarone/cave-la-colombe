@@ -10,7 +10,7 @@ const Hero = () => {
     // }}
     >
       <div />
-      <Image src={hero} />
+      <Image src={hero} alt='Vue sur le vignoble de Conthey' />
     </StyledHero>
   )
 }

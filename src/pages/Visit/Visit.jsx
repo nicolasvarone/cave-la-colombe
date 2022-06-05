@@ -12,7 +12,7 @@ const Visit = () => {
   return (
     <>
       <Header />
-      <TopImage src={visit2} alt={'Bateau'} />
+      <TopImage src={visit2} alt='Bateau' />
       <Container>
         <ContainerSmall>
           <Text>
