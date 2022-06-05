@@ -25,6 +25,7 @@ export const WrapperLink = styled.div`
   a {
     font-size: 1.125rem;
     color: inherit;
+    text-align: center;
     text-decoration: underline;
   }
 `
