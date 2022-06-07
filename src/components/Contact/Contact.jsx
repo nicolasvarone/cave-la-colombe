@@ -1,4 +1,4 @@
-import { StyledContact, FlexContact, Left, Right, Form } from './Contact.styled'
+import { StyledContact, FlexContact, Left, Right } from './Contact.styled'
 
 const Contact = () => {
   return (
@@ -38,7 +38,7 @@ const Contact = () => {
           </p>
         </Left>
         <Right>
-          <form name='contact' method='POST'>
+          <form name='contact' method='post'>
             <input type='hidden' name='form-name' value='contact' />
 
             <label>Nom</label>
@@ -47,7 +47,7 @@ const Contact = () => {
             <input type='email' name='email' />
             <label>Message</label>
             <textarea name='message'></textarea>
-            <input type='submit' value='Envoyer' />
+            <button type='submit'>Envoyer</button>
           </form>
         </Right>
       </FlexContact>

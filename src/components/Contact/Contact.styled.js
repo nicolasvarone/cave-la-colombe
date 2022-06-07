@@ -91,7 +91,7 @@ export const Right = styled.div`
       margin-bottom: 1rem;
     }
 
-    input[type='submit'] {
+    button {
       display: block;
       width: auto;
       margin-top: 0.375rem;
