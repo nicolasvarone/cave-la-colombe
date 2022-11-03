@@ -27,7 +27,7 @@ const Visit = () => {
             </p>
             <ul>
               <li>
-                <span>Lucerne:</span> Wyschiff (du 17 au 20 mars 2022,{' '}
+                <span>Zurich:</span> Wyschiff (les 14 et 15 février 2023,{' '}
                 <a
                   href='https://www.wyschiff.ch/'
                   target='_blank'
@@ -38,7 +38,7 @@ const Visit = () => {
                 )
               </li>
               <li>
-                <span>Bâle:</span> Wyschiff (du 24 au 27 mars 2022,{' '}
+                <span>Lucerne:</span> Wyschiff (du 16 au 19 mars 2023,{' '}
                 <a
                   href='https://www.wyschiff.ch/'
                   target='_blank'
@@ -49,7 +49,7 @@ const Visit = () => {
                 )
               </li>
               <li>
-                <span>Zurich:</span> Wyschiff (dates à venir,{' '}
+                <span>Bâle:</span> Wyschiff (du 23 au 26 mars 2023,{' '}
                 <a
                   href='https://www.wyschiff.ch/'
                   target='_blank'

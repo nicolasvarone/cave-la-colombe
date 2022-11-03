@@ -10,7 +10,7 @@ const RangeWines = (flexStart, width) => {
           <img src={wines3} alt='Conthey' />
         </Image>
         <Text>
-          <h3>Conthey</h3>
+          <h3>Conthey AOC Valais</h3>
           <ul>
             <li>Conthey Vieilles Vignes</li>
             <li>Tricrètes Vieille Vigne</li>
@@ -30,7 +30,7 @@ const RangeWines = (flexStart, width) => {
           <img src={wines4} alt='Les Ecrins' />
         </Image>
         <Text width={width}>
-          <h3>Les Ecrins</h3>
+          <h3>Les Ecrins AOC Valais</h3>
           <ul>
             <li>Petite Arvine</li>
             <li>Païen/Heida</li>
