@@ -5,7 +5,7 @@ const Contact = () => {
     <StyledContact>
       <FlexContact>
         <Left>
-          <h3>Cave la Colombe SA</h3>
+          <h3>La Colombe SA</h3>
           <p>
             Grégoire Dessimoz
             <br />

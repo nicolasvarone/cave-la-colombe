@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <WrapperFooter>
-        <p>© 2022, Cave la Colombe SA, Tous droits réservés</p>
+        <p>© 2022, La Colombe SA, Tous droits réservés</p>
         <a
           href='https://www.facebook.com/CaveLaColombe'
           target='_blank'
