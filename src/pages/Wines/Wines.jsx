@@ -7,7 +7,7 @@ import {
 } from '../../components/Container/Container.styled'
 import { Text, WrapperLink, WrapperButton } from './Wines.styled'
 import RangeWines from '../../components/RangeWines/RangeWines'
-import List from '../../images/liste_des_prix_2022.pdf'
+import List from '../../images/liste-des-prix-2023.pdf'
 import Button from '../../components/Button/Button'
 
 const Wines = () => {
