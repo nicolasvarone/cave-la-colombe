@@ -27,7 +27,7 @@ const Visit = () => {
             </p>
             <ul>
               <li>
-                <span>Zurich:</span> Wyschiff (les 14 et 15 février 2023,{' '}
+                <span>Bâle:</span> Wyschiff (du 14 au 17 mars 2024,{' '}
                 <a
                   href='https://www.wyschiff.ch/'
                   target='_blank'
@@ -38,7 +38,7 @@ const Visit = () => {
                 )
               </li>
               <li>
-                <span>Lucerne:</span> Wyschiff (du 16 au 19 mars 2023,{' '}
+                <span>Lucerne:</span> Wyschiff (du 21 au 24 mars 2024,{' '}
                 <a
                   href='https://www.wyschiff.ch/'
                   target='_blank'
@@ -49,7 +49,18 @@ const Visit = () => {
                 )
               </li>
               <li>
-                <span>Bâle:</span> Wyschiff (du 23 au 26 mars 2023,{' '}
+                <span>Conthey:</span> Caves ouvertes des vins du Valais (du 9 au 11 mai 2024,{' '}
+                <a
+                  href='https://www.wyschiff.ch/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  www.wyschiff.ch
+                </a>
+                )
+              </li>
+              <li>
+                <span>Lausanne:</span> Wyschiff (novembre 2024,{' '}
                 <a
                   href='https://www.wyschiff.ch/'
                   target='_blank'
