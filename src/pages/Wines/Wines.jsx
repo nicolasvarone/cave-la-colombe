@@ -10,7 +10,7 @@ import Button from '../../components/Button/Button'
 const Wines = () => {
   return (
     <>
-      <Header />
+      <Header/>
       <TopImage src={wines2} alt='Vin rouge'/>
       <Container>
         <ContainerSmall>
