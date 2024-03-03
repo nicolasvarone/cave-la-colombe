@@ -6,7 +6,7 @@ import wines4 from '../../images/wines4.jpg'
 import winesConthey from '../../data/wines-conthey'
 import winesEcrins from '../../data/wines-ecrins'
 
-const RangeWines = ({ flexStart, width }) => {
+const RangeWines = (flexStart, width) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [selectedWine, setSelectedWine] = useState(null)
 
