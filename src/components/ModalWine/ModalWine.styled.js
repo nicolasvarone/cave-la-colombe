@@ -1,27 +1,30 @@
 import styled from 'styled-components'
 
-export const Background = styled.div`
+export const StyledModal = styled.div`
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+`
+export const ModalWrapper = styled.div`
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
 `
-
 export const Modal = styled.div`
   position: relative;
   width: 80%;
   max-width: 600px;
-  background: white;
+  background-color: var(--light-color);
   padding: 3rem;
   z-index: 1000;
   text-align: left;
-  
+  border: 1px solid var(--dark-color);
+  box-shadow: 12px 12px 0 1px var(--primary-color);
+ 
   h3 {
     margin-left: -0.25rem;
     margin-bottom: 2rem;
@@ -48,7 +51,6 @@ export const Modal = styled.div`
       font-weight: 400;
     }
 `
-
 export const Close = styled.div`
   position: absolute;
   top: 1.5rem;
@@ -57,4 +59,14 @@ export const Close = styled.div`
   height: 1.75rem;
   cursor: pointer;
   color: var(--dark-color);
+`
+
+export const Background = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--light-color);
+  opacity: 0.9;
 `
