@@ -10,14 +10,17 @@ const RangeWines = (flexStart, width) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [selectedWine, setSelectedWine] = useState(null)
 
-  const toggleModal = () => {
-    setIsModalOpen(!isModalOpen)
-  }
-
   const onSelectedWine = (wine) => {
-    setSelectedWine(wine)
-    setIsModalOpen(true)
-  }
+    setSelectedWine(wine);
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedWine(null);
+    document.body.style.overflow = 'auto';
+  };
 
   return (
     <StyledRangeWines>
@@ -52,7 +55,7 @@ const RangeWines = (flexStart, width) => {
         </Text>
       </FlexRange>
       {isModalOpen && (
-        <ModalWine wine={selectedWine} toggleModal={toggleModal}/>
+        <ModalWine wine={selectedWine} closeModal={closeModal}/>
       )}
     </StyledRangeWines>
   )

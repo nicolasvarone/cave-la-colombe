@@ -1,13 +1,13 @@
 import { StyledModal, ModalWrapper, Modal, Close, Background } from "./ModalWine.styled"
 import { XMarkIcon } from "@heroicons/react/24/solid"
 
-const ModalWine = ({ toggleModal, wine }) => {
+const ModalWine = ({ wine, closeModal }) => {
   return (
     <StyledModal>
       <ModalWrapper>
         <Modal>
           <Close>
-            <XMarkIcon onClick={toggleModal}/>
+            <XMarkIcon onClick={closeModal}/>
           </Close>
           <h3>{wine.title}</h3>
           <span>{wine.subtitle1}</span>
