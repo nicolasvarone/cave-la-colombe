@@ -80,14 +80,12 @@ export const Text = styled.div`
     color: var(--primary-color);
   }
 
-  ul {
-    list-style: disc;
-    padding-left: 1.5rem;
-  }
-
   li {
     font-size: 1.375rem;
-    line-height: 1.8;
+    line-height: 2;
+    text-decoration: underline;
+    text-decoration-color: #48494B;
+    text-decoration-thickness: 1.5px;
 
     @media screen and (max-width: 480px) {
       font-size: 1.125rem;

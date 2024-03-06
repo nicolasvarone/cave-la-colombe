@@ -27,6 +27,7 @@ export const WrapperLink = styled.div`
     color: inherit;
     text-align: center;
     text-decoration: underline;
+    text-decoration-color: #48494B;
   }
 `
 

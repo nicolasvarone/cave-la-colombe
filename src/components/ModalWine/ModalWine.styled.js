@@ -15,15 +15,22 @@ export const ModalWrapper = styled.div`
   align-items: center;
 `
 export const Modal = styled.div`
+  overflow-y: scroll;
   position: relative;
   width: 80%;
   max-width: 600px;
+  height: fit-content;
+  max-height: 90%;
   background-color: var(--light-color);
   padding: 3rem;
   z-index: 1000;
   text-align: left;
   border: 1px solid var(--dark-color);
   box-shadow: 12px 12px 0 1px var(--primary-color);
+
+  @media screen and (max-width: 768px) {
+          padding: 2rem;
+      }
  
   h3 {
     margin-left: -0.25rem;

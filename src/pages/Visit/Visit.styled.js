@@ -34,6 +34,8 @@ export const Text = styled.div`
     a {
       color: inherit;
       text-decoration: underline;
+      text-decoration-color: #48494B;
+      text-decoration-thickness: 1.5px;
     }
   }
 `
