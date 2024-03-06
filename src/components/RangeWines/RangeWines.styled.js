@@ -86,6 +86,8 @@ export const Text = styled.div`
     text-decoration: underline;
     text-decoration-color: #48494B;
     text-decoration-thickness: 1.5px;
+    cursor: pointer;
+    width: fit-content;
 
     @media screen and (max-width: 480px) {
       font-size: 1.125rem;
