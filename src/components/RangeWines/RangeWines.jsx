@@ -10,18 +10,19 @@ const RangeWines = (flexStart, width) => {
           <img src={wines3} alt='Conthey' />
         </Image>
         <Text>
-          <h3>Conthey AOC Valais</h3>
+          <h3>Les vins blancs</h3>
           <ul>
-            <li>Conthey Vieilles Vignes</li>
-            <li>Tricrètes Vieille Vigne</li>
-            <li>Johannisberg</li>
-            <li>Intchié No Blanc</li>
-            <li>Rosé Charme</li>
-            <li>Dôle blanche</li>
-            <li>Intchié No Rose</li>
-            <li>Gamay Vieille Vigne</li>
-            <li>Pinot Noir Vieilles Vignes</li>
-            <li>Intchié No Rouge</li>
+            <li>Conthey «Vieilles Vignes» (Fendant)</li>
+            <li>Tricrètes «Vieilles Vignes» (Fendant)</li>
+            <li>Johannisberg «Privilège»</li>
+            <li>Petite Arvine «Finesse»</li>
+            <li>Païen/Heida «Les Ecrins»</li>
+          </ul>
+          <h3 style={{marginTop: '2rem'}}>Les vins rosés</h3>
+          <ul>
+            <li>Dôle blanche «Intchié No» (Pinot Noir et Gamay)</li>
+            <li>Versus (Pinot Noir et Gamay)</li>
+            <li>Paloma (Merlot)</li>
           </ul>
         </Text>
       </FlexRange>
@@ -30,14 +31,14 @@ const RangeWines = (flexStart, width) => {
           <img src={wines4} alt='Les Ecrins' />
         </Image>
         <Text width={width}>
-          <h3>Les Ecrins AOC Valais</h3>
+          <h3>Les vins rouges</h3>
           <ul>
-            <li>Petite Arvine</li>
-            <li>Païen/Heida</li>
-            <li>Merlot</li>
-            <li>Syrah</li>
-            <li>Séléné</li>
-            <li>Viyra</li>
+            <li>Dôle «Intchié No»</li>
+            <li>Pinot Noir «Vieilles Vignes»</li>
+            <li>Merlot «Les Ecrins»</li>
+            <li>Virya (Cabernet Franc)</li>
+            <li>Séléné (Diolinoir et Syrah)</li>
+            <li>Syrah «Les Rayes»</li>
           </ul>
         </Text>
       </FlexRange>

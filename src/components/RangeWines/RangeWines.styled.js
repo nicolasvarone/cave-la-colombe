@@ -60,7 +60,7 @@ export const Image = styled.div`
 `
 
 export const Text = styled.div`
-  width: ${({ width }) => (width ? '20%' : 'auto')};
+  width: ${({ width }) => (width ? '33%' : 'auto')};
 
   @media screen and (max-width: 1280px) {
     width: ${({ width }) => (width ? '25%' : 'auto')};

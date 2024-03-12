@@ -1,20 +1,17 @@
 import Header from '../../components/Header/Header'
 import TopImage from '../../components/TopImage/TopImage'
 import wines2 from '../../images/wines2.jpg'
-import {
-  Container,
-  ContainerSmall,
-} from '../../components/Container/Container.styled'
-import { Text, WrapperLink, WrapperButton } from './Wines.styled'
+import {Container, ContainerSmall} from '../../components/Container/Container.styled'
+import {Text, WrapperLink, WrapperButton} from './Wines.styled'
 import RangeWines from '../../components/RangeWines/RangeWines'
-import List from '../../images/liste-des-prix-2023.pdf'
+import List from '../../images/liste-des-vins-2024.pdf'
 import Button from '../../components/Button/Button'
 
 const Wines = () => {
   return (
     <>
-      <Header />
-      <TopImage src={wines2} alt='Vin rouge' />
+      <Header/>
+      <TopImage src={wines2} alt='Vin rouge'/>
       <Container>
         <ContainerSmall>
           <Text>
@@ -42,10 +39,10 @@ const Wines = () => {
           </Text>
         </ContainerSmall>
       </Container>
-      <RangeWines />
+      <RangeWines/>
       <Container>
         <WrapperButton>
-          <Button as='a' href='/visite' text='Contactez-nous' />
+          <Button as='a' href='/visite' text='Contactez-nous'/>
         </WrapperButton>
       </Container>
     </>
