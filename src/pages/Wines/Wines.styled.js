@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { SecondTitleStyle, WrapperLinkStyle } from '../../globalStyle'
+import styled from "styled-components";
+import { SecondTitleStyle, WrapperLinkStyle } from "../../globalStyle";
 
 export const Text = styled.div`
   padding: var(--padding-7) 0 0;
@@ -15,7 +15,7 @@ export const Text = styled.div`
   p {
     margin-bottom: 1.4rem;
   }
-`
+`;
 
 export const WrapperLink = styled.div`
   padding-block: var(--padding-5);
@@ -24,12 +24,13 @@ export const WrapperLink = styled.div`
 
   a {
     font-size: 1.125rem;
+    font-weight: 400;
     color: inherit;
     text-align: center;
     text-decoration: underline;
   }
-`
+`;
 
 export const WrapperButton = styled.div`
   ${WrapperLinkStyle}
-`
+`;

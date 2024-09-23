@@ -1,18 +1,18 @@
-import Header from '../../components/Header/Header'
-import TopImage from '../../components/TopImage/TopImage'
-import visit2 from '../../images/visit2.jpg'
+import Header from "../../components/Header/Header";
+import TopImage from "../../components/TopImage/TopImage";
+import visit2 from "../../images/visit2.jpg";
 import {
   Container,
   ContainerSmall,
-} from '../../components/Container/Container.styled'
-import { Text } from './Visit.styled'
-import Contact from '../../components/Contact/Contact'
+} from "../../components/Container/Container.styled";
+import { Text } from "./Visit.styled";
+import Contact from "../../components/Contact/Contact";
 
 const Visit = () => {
   return (
     <>
       <Header />
-      <TopImage src={visit2} alt='Bateau' />
+      <TopImage src={visit2} alt="Bateau" />
       <Container>
         <ContainerSmall>
           <Text>
@@ -27,44 +27,46 @@ const Visit = () => {
             </p>
             <ul>
               <li>
-                <span>Bâle:</span> Wyschiff (du 14 au 17 mars 2024,{' '}
+                <span>Lausanne:</span> Wyschiff (les 22 et 23 novembre 2024
+                (hôtel Mövenpick),{" "}
                 <a
-                  href='https://www.wyschiff.ch/'
-                  target='_blank'
-                  rel='noreferrer'
+                  href="https://www.wyschiff.ch/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   www.wyschiff.ch
                 </a>
                 )
               </li>
               <li>
-                <span>Lucerne:</span> Wyschiff (du 21 au 24 mars 2024,{' '}
+                <span>Lucerne:</span> Wyschiff (du 13 au 16 mars 2025,{" "}
                 <a
-                  href='https://www.wyschiff.ch/'
-                  target='_blank'
-                  rel='noreferrer'
+                  href="https://www.wyschiff.ch/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   www.wyschiff.ch
                 </a>
                 )
               </li>
               <li>
-                <span>Conthey:</span> Caves ouvertes des vins du Valais (du 9 au 11 mai 2024,{' '}
+                <span>Bâle:</span> Wyschiff (du 20 au 23 mars 2025,{" "}
                 <a
-                  href='https://www.wyschiff.ch/'
-                  target='_blank'
-                  rel='noreferrer'
+                  href="https://www.wyschiff.ch/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   www.wyschiff.ch
                 </a>
                 )
               </li>
               <li>
-                <span>Lausanne:</span> Wyschiff (novembre 2024,{' '}
+                <span>Conthey:</span> Caves ouvertes des vins du Valais (du 29
+                au 31 mai 2025,{" "}
                 <a
-                  href='https://www.wyschiff.ch/'
-                  target='_blank'
-                  rel='noreferrer'
+                  href="https://www.wyschiff.ch/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   www.wyschiff.ch
                 </a>
@@ -76,7 +78,7 @@ const Visit = () => {
         <Contact />
       </Container>
     </>
-  )
-}
+  );
+};
 
-export default Visit
+export default Visit;
