@@ -1,55 +1,30 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const StyledRangeWines = styled.div`
-  width: 70%;
+  display: flex;
+  column-gap: 4rem;
   margin: 0 auto;
   padding: var(--padding-7) 0 0;
-
-  @media screen and (max-width: 1280px) {
-    width: 85%;
-  }
 
   @media screen and (max-width: 768px) {
     padding: 0;
   }
-`
+`;
 
-export const FlexRange = styled.div`
+export const ImagesColumn = styled.div`
   display: flex;
-  justify-content: ${({ flexStart }) =>
-    flexStart ? 'flex-start' : 'flex-end'};
-
-  &:not(:last-child) {
-    margin-bottom: 10rem;
-  }
-
-  @media screen and (max-width: 1024px) {
-    justify-content: flex-start;
-  }
+  flex-direction: column;
+  row-gap: 4rem;
+  width: 30%;
 
   @media screen and (max-width: 768px) {
-    flex-direction: column;
-
-    &:not(:last-child) {
-      margin-bottom: 6rem;
-    }
+    display: none;
   }
-`
+`;
 
 export const Image = styled.div`
-  width: 35%;
-  height: 100%;
+  width: 100%;
   margin-right: 4rem;
-
-  @media screen and (max-width: 1024px) {
-    width: 50%;
-  }
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 3rem;
-  }
 
   img {
     width: 100%;
@@ -57,24 +32,9 @@ export const Image = styled.div`
     object-fit: cover;
     box-shadow: 12px 12px 0 1px var(--primary-color);
   }
-`
+`;
 
 export const Text = styled.div`
-  width: ${({ width }) => (width ? '33%' : 'auto')};
-
-  @media screen and (max-width: 1280px) {
-    width: ${({ width }) => (width ? '25%' : 'auto')};
-  }
-
-  @media screen and (max-width: 1024px) {
-    width: 50%;
-  }
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    padding-left: 1rem;
-  }
-
   h3 {
     margin-bottom: 0.5rem;
     color: var(--primary-color);
@@ -97,4 +57,10 @@ export const Text = styled.div`
       font-size: 1rem;
     }
   }
-`
+
+  span {
+    font-size: 1.125rem;
+    margin-left: 1rem;
+    white-space: nowrap;
+  }
+`;
