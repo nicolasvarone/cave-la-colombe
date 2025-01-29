@@ -23,8 +23,7 @@ export const WrapperLink = styled.div`
   justify-content: center;
 
   a {
-    font-size: 1.125rem;
-    font-weight: 400;
+    font-size: 1.5rem;
     color: inherit;
     text-align: center;
     text-decoration: underline;

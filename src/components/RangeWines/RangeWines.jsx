@@ -77,6 +77,15 @@ const RangeWines = (flexStart, width) => {
                 Syrah «Les Rayes»<span>27,00 CHF</span>
               </li>
             </ul>
+            <h3 style={{ marginTop: "2rem" }}>Hors-série</h3>
+            <ul>
+              <li>
+                La Ligne Noire – Chapitre II (150 cl)<span>88,00 CHF</span>
+              </li>
+              <li>
+                MRCVR – Fine des Alpes Valaisannes (50 cl)<span>37,00 CHF</span>
+              </li>
+            </ul>
           </Text>
         </StyledRangeWines>
       </ContainerSmall>
