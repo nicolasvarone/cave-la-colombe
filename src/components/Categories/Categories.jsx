@@ -13,7 +13,12 @@ const Categories = () => {
     <StyledCategories>
       <FlexCategories>
         {categories.map((item) => (
-          <Categorie to={item.url} key={item.id}>
+          <Categorie
+            key={item.id}
+            {...(item.external
+              ? { as: 'a', href: item.url, target: '_blank', rel: 'noreferrer' }
+              : { to: item.url })}
+          >
             <Card>
               <Foreground>
                 <h2>{item.text}</h2>

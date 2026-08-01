@@ -49,7 +49,13 @@ const Header = ({ position, color }) => {
             </LinkItem>
           </Item>
           <Item>
-            <LinkItem to='/vins' color={color}>
+            <LinkItem
+              as='a'
+              href='https://shop.cave-la-colombe.ch/category/rouges'
+              target='_blank'
+              rel='noreferrer'
+              color={color}
+            >
               Vins
             </LinkItem>
           </Item>
@@ -89,7 +95,10 @@ const Header = ({ position, color }) => {
             </ItemMobile>
             <ItemMobile>
               <LinkItemMobile
-                to='/vins'
+                as='a'
+                href='https://shop.cave-la-colombe.ch/category/rouges'
+                target='_blank'
+                rel='noreferrer'
                 onClick={() => closeMenu()}
                 color={color}
               >

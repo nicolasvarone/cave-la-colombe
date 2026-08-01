@@ -12,7 +12,8 @@ const categories = [
   },
   {
     id: 2,
-    url: '/vins',
+    url: 'https://shop.cave-la-colombe.ch/category/rouges',
+    external: true,
     number: '02',
     text: 'Vins',
     image: wines1,
