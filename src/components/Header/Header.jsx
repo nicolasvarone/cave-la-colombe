@@ -15,9 +15,12 @@ import {
 } from './Header.styled'
 import logo from '../../images/logo.svg'
 import Hamburger from 'hamburger-react'
+import { useAgeGate } from '../../context/AgeGate'
+import { SHOP_URL } from '../../data/shop'
 
 const Header = ({ position, color }) => {
   const [isOpen, setIsOpen] = useState(false)
+  const openAgeGate = useAgeGate()
 
   const closeMenu = () => {
     setIsOpen(false)
@@ -49,13 +52,7 @@ const Header = ({ position, color }) => {
             </LinkItem>
           </Item>
           <Item>
-            <LinkItem
-              as='a'
-              href='https://shop.cave-la-colombe.ch/category/rouges'
-              target='_blank'
-              rel='noreferrer'
-              color={color}
-            >
+            <LinkItem as='a' href={SHOP_URL} onClick={openAgeGate} color={color}>
               Vins
             </LinkItem>
           </Item>
@@ -96,10 +93,11 @@ const Header = ({ position, color }) => {
             <ItemMobile>
               <LinkItemMobile
                 as='a'
-                href='https://shop.cave-la-colombe.ch/category/rouges'
-                target='_blank'
-                rel='noreferrer'
-                onClick={() => closeMenu()}
+                href={SHOP_URL}
+                onClick={(event) => {
+                  closeMenu()
+                  openAgeGate(event)
+                }}
                 color={color}
               >
                 Vins

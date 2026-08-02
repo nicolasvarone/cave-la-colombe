@@ -7,8 +7,11 @@ import {
   Background,
 } from './Categories.styled'
 import categories from '../../data/categories'
+import { useAgeGate } from '../../context/AgeGate'
 
 const Categories = () => {
+  const openAgeGate = useAgeGate()
+
   return (
     <StyledCategories>
       <FlexCategories>
@@ -16,7 +19,7 @@ const Categories = () => {
           <Categorie
             key={item.id}
             {...(item.external
-              ? { as: 'a', href: item.url, target: '_blank', rel: 'noreferrer' }
+              ? { as: 'a', href: item.url, onClick: openAgeGate }
               : { to: item.url })}
           >
             <Card>
