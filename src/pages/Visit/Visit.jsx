@@ -27,8 +27,8 @@ const Visit = () => {
             </p>
             <ul>
               <li>
-                <span>Lausanne:</span> Wyschiff (les 22 et 23 novembre 2024
-                (hôtel Mövenpick),{" "}
+                <span>Lausanne:</span> Wyschiff (les 20 et 21 novembre 2026
+                à l'hôtel Mövenpick,{" "}
                 <a
                   href="https://www.wyschiff.ch/"
                   target="_blank"
@@ -39,7 +39,12 @@ const Visit = () => {
                 )
               </li>
               <li>
-                <span>Lucerne:</span> Wyschiff (du 13 au 16 mars 2025,{" "}
+                <span>Conthey:</span> Caves ouvertes de l'Avent (le vendredi 4
+                décembre de 16h à 20h et le samedi 5 décembre 2026 de 11h à
+                18h)
+              </li>
+              <li>
+                <span>Bâle:</span> Wyschiff (du 4 au 7 mars 2027,{" "}
                 <a
                   href="https://www.wyschiff.ch/"
                   target="_blank"
@@ -50,7 +55,7 @@ const Visit = () => {
                 )
               </li>
               <li>
-                <span>Bâle:</span> Wyschiff (du 20 au 23 mars 2025,{" "}
+                <span>Lucerne:</span> Wyschiff (du 18 au 21 mars 2027,{" "}
                 <a
                   href="https://www.wyschiff.ch/"
                   target="_blank"
@@ -61,16 +66,8 @@ const Visit = () => {
                 )
               </li>
               <li>
-                <span>Conthey:</span> Caves ouvertes des vins du Valais (du 29
-                au 31 mai 2025,{" "}
-                <a
-                  href="https://www.wyschiff.ch/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  www.wyschiff.ch
-                </a>
-                )
+                <span>Conthey:</span> Caves ouvertes des vins du Valais (du 6
+                au 8 mai 2027)
               </li>
             </ul>
           </Text>
