@@ -1,8 +1,8 @@
 import { StyledButton } from './Button.styled'
 
-const Button = ({ as, href, text }) => {
+const Button = ({ as, href, to, text }) => {
   return (
-    <StyledButton as={as} href={href}>
+    <StyledButton as={as} href={href} to={to}>
       {text}
     </StyledButton>
   )

@@ -1,1 +1,7 @@
-/*    /index.html    200
+# Known pages of the React app: serve index.html with 200
+/domaine    /index.html    200
+/visite     /index.html    200
+/vins       /index.html    200
+
+# Anything else: serve index.html (React shows the 404 page) with a real 404 status
+/*          /index.html    404
